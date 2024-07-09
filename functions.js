@@ -1,26 +1,27 @@
-function displayName(params) {
-  name = "reagan gwee";
+// function displayName(params) {
+//   name = "reagan gwee";
 
-  return name;
-}
+//   return name;
+// }
 
-// console.log(displayName());
+// // console.log(displayName());
 
 
-function displaySum(params) {
-  var a = 10;
-  var b = 20;
+// function displaySum(params) {
+//   var a = 10;
+//   var b = 20;
 
- return sum = a + b;
-}
-console.log(displaySum());
+//  return sum = a + b;
+// }
+// console.log(displaySum());
 
 
 
 function displayProduct(params) {
   var num1 = 20;
   var num2 = 30;
+  var  product = num1 * num2;
 
-  return (product = num1 * num2);
+  console.log(product)
 }
-console.log(displayProduct());
+displayProduct();

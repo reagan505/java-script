@@ -19,32 +19,17 @@
 
 let score = 100;
 
-if (score>90) {
+if (score > 90) {
     console.log("you got an A");
-}else{
+} else if (score > 80) {
     console.log("you got a B");
-}
-if (score>80) {
-    console.log("you got an B");
-}else{
+} else if (score > 70) {
     console.log("you got a C");
-}
-if (score>70) {
-    console.log("you got an C");
-}else{
+} else if (score > 60) {
     console.log("you got a D");
-}
-if (score>60) {
-    console.log("you got an D");
-}else{
-    console.log("you got a E");
-}
-if (score>50) {
+} else if (score > 50) {
     console.log("you got an E");
-}else{
-    console.log("you got a F");
+} else {
+    console.log("you got an F");
 }
-
-
-
 
